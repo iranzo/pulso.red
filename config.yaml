@@ -83,28 +83,28 @@ menu:
       url: /
       weight: 10
     - identifier: About
-      name: 🗒️About
+      name: 🗒️Acerca
       url: /about/
       weight: 15
     - identifier: projects
-      name: 📐Projects
+      name: 📐Projectos
       url: /projects/
       weight: 20
     - identifier: archives
-      name: 🗄️ Archives
+      name: 🗄️ Archivos
       url: /archives/
       weight: 20
 
     - identifier: categories
-      name: 🗺️Categories
+      name: 🗺️Categorias
       url: /categories/
       weight: 30
     - identifier: tags
-      name: 🏷️Tags
+      name: 🏷️Etiquetas
       url: /tags/
       weight: 35
     - identifier: search
-      name: 🔎Search
+      name: 🔎Buscar
       url: /search
       weight: 40
 
@@ -131,14 +131,8 @@ outputFormats:
     mediaType: "text/html"
     isHTML: true
 
-defaultContentLanguage: en
-languages:
-  en:
-    languageName: English
-    weight: 1
-  es:
-    languageName: Spanish
-    weight: 2
+defaultContentLanguage: es
+
 
 
 taxonomies:
