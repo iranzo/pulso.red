@@ -1,14 +1,14 @@
 ---
 title: ¿Qué son las Altas Capacidades?
 categories:
-  - blog
+  - información
 tags:
   - Educación
   - Altas Capacidades
   - AACC
 date: 2023-07-02T11:13:48.586Z
 language: es
-lastmod: 2023-07-13T11:21:08.094Z
+lastmod: 2023-07-13T22:25:05.867Z
 ---
 
 Como las definen en la [Asociación Valenciana de apoyo a las Altas Capacidades Intelectuales (AVAST)](https://asociacion-avast.org/que-son-las-altas-capacidades/):

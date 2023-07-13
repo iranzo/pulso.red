@@ -1,7 +1,6 @@
 ---
 title: Encuesta sobre centros
 categories:
-  - blog
   - encuesta
 tags:
   - Educación
@@ -9,10 +8,9 @@ tags:
   - Acoso
   - AACC
   - Centros Educativos
-  - blog
 date: 2023-07-13T11:12:02.026Z
 language: es
-lastmod: 2023-07-13T11:18:47.022Z
+lastmod: 2023-07-13T22:25:12.174Z
 ---
 
 Buenas!
