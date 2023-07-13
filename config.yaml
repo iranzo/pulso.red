@@ -1,0 +1,147 @@
+---
+baseURL: "https://pulso.red"
+title: Pulso.red
+paginate: 5
+theme: [PaperMod, reveal-hugo]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+GoogleAnalytics: false
+
+relativeURLs: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  mainSections: [blog, presentations]
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Pulso.red
+  description: "Proyectos a seguir!"
+  keywords: [Blog]
+  author: Pulso.red
+  # author: ["Me", "You"] # multiple authors
+  images: []
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  responsiveImages: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  searchHidden: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+  assets:
+    disableFingerprinting: true
+
+  label:
+    text: "Home"
+    icon: /apple-icon-152x152.png
+    iconHeight: 35
+
+  # home-info mode
+  # homeInfoParams:
+      # Title: "Hi!"
+      # Content: Welcome to my blog
+
+  analytics:
+    google:
+      SiteVerificationTag: "Bk4Z5ucHLyPXqlZlj5LzANpYBBSvxqBW4E8i-Kwf-bQ"
+    yandex:
+      SiteVerificationTag: "993ede96cdfbee95"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: home
+      name: 🏠Home
+      url: /
+      weight: 10
+    - identifier: About
+      name: 🗒️About
+      url: /about/
+      weight: 15
+    - identifier: projects
+      name: 📐Projects
+      url: /projects/
+      weight: 20
+    - identifier: archives
+      name: 🗄️ Archives
+      url: /archives/
+      weight: 20
+
+    - identifier: categories
+      name: 🗺️Categories
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: 🏷️Tags
+      url: /tags/
+      weight: 35
+    - identifier: search
+      name: 🔎Search
+      url: /search
+      weight: 40
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+  page: ["HTML"]
+
+
+sitemap:
+  changefreq: "monthly"
+  filename: "sitemap.xml"
+  priority: 0.5
+
+
+permalinks:
+  posts: /:year/:month/:day/:title/
+  /: /:year/:month/:day/:title/
+  blog: /blog/:year/:month/:day/:title/
+
+
+outputFormats:
+  Reveal:
+    baseName: index
+    mediaType: "text/html"
+    isHTML: true
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+  es:
+    languageName: Spanish
+    weight: 2
+
+
+taxonomies:
+  categories: categories
+  series: series
+  tag: tags

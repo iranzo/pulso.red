@@ -1,0 +1,11 @@
+output/
+.peru/
+plugins/
+themes/
+.history/
+*.pid
+__pycache__/
+*~
+.vscode/
+.frontmatter/
+frontmatter.json
