@@ -55,11 +55,11 @@ params:
       # Title: "Hi!"
       # Content: Welcome to my blog
 
-  analytics:
-    google:
-      SiteVerificationTag: "Bk4Z5ucHLyPXqlZlj5LzANpYBBSvxqBW4E8i-Kwf-bQ"
-    yandex:
-      SiteVerificationTag: "993ede96cdfbee95"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "Bk4Z5ucHLyPXqlZlj5LzANpYBBSvxqBW4E8i-Kwf-bQ"
+  #   yandex:
+  #     SiteVerificationTag: "993ede96cdfbee95"
 
   cover:
     hidden: false # hide everywhere but not in structured data
@@ -87,7 +87,7 @@ menu:
       url: /about/
       weight: 15
     - identifier: projects
-      name: 📐Projectos
+      name: 📐Proyectos
       url: /projects/
       weight: 20
     - identifier: archives
@@ -132,7 +132,6 @@ outputFormats:
     isHTML: true
 
 defaultContentLanguage: es
-
 
 
 taxonomies:
