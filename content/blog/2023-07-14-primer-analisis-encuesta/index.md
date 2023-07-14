@@ -11,7 +11,9 @@ tags:
   - Resultados
 date: 2023-07-14T19:12:02.026Z
 language: es
-lastmod: 2023-07-14T20:37:35.878Z
+lastmod: 2023-07-14T20:52:04.752Z
+cover:
+  image: images/detecto.png
 ---
 
 Como os presentamos en la [Encuesta sobre centros]({{<relref path="2023-07-13-Encuesta-sobre-centros.md">}}), y gracias a que ya se ha ido rellenando por vuestra parte, podemos ir sacando algunas primeras lecturas de los datos recibidos.
