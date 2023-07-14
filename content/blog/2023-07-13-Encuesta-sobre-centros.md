@@ -10,7 +10,7 @@ tags:
   - Centros Educativos
 date: 2023-07-13T11:12:02.026Z
 language: es
-lastmod: 2023-07-13T22:25:12.174Z
+lastmod: 2023-07-14T19:51:06.821Z
 ---
 
 Buenas!
@@ -23,8 +23,8 @@ Como también nos han comentado compañeros que hay presencia de acoso en estos 
 
 Decidnos qué os parece y animaos a participar para que nos sea a todos más fácil saber dónde nuestros hijos serán mejor recibidos.
 
-AACC: <https://forms.gle/cPVDKJP1xNKbSPuN9>
+📊 AACC: <https://forms.gle/cPVDKJP1xNKbSPuN9>
 
-Acoso: <https://forms.gle/FdpSzgkhpwP6tiSb7>
+📊 Acoso: <https://forms.gle/FdpSzgkhpwP6tiSb7>
 
 Gracias de antemano por vuestro tiempo y colaboración!
