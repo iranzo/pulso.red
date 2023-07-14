@@ -24,7 +24,7 @@ params:
   keywords: [Blog]
   author: Pulso.red
   # author: ["Me", "You"] # multiple authors
-  images: []
+  images: ["/apple-icon-152x152.png"]
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   responsiveImages: true
