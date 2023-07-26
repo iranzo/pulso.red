@@ -18,9 +18,9 @@
         {{ $web := index $r 8}}
         <!-- Start writing the lines for the elements -->
         {{ if ne $web "" }}
-            {{ $elem | safeHTML }} <a href="{{ $web }}">{{ index $r 7 }}</a> <!-- nombre centro-->({{ index $r 10 }} <!-- Tipo-->){{ $elemfin | safeHTML }}
+            {{ $elem | safeHTML }} <a href="{{ $web }}">{{ index $r 7 }}</a> <!-- nombre centro-->({{ index $r 10 }}<!-- Tipo-->){{ $elemfin | safeHTML }}
         {{else}}
-            {{ $elem | safeHTML }}{{ index $r 7 }} <!-- nombre centro-->({{ index $r 10 }} <!-- Tipo-->){{ $elemfin | safeHTML }}
+            {{ $elem | safeHTML }}{{ index $r 7 }} <!-- nombre centro-->({{ index $r 10 }}<!-- Tipo-->){{ $elemfin | safeHTML }}
         {{end}}
 
         {{ $elem | safeHTML }} {{ index $r 2 }} <!-- Población-->{{ $elemfin | safeHTML }}
