@@ -13,24 +13,24 @@
             {{ $elemfin = "</td>"}}
     {{ end}}
     <tr>
-        {{ $elem | safeHTML }} {{ index $r 4 }}  <!-- promedio-->{{ $elemfin | safeHTML }}
+        {{ $elem | safeHTML }} {{ index $r 3 }}  <!-- promedio-->{{ $elemfin | safeHTML }}
 
-        {{ $web := index $r 10}}
+        {{ $web := index $r 8}}
         <!-- Start writing the lines for the elements -->
         {{ if ne $web "" }}
-            {{ $elem | safeHTML }} <a href="{{ $web }}">{{ index $r 9 }}</a> <!-- nombre centro-->({{ index $r 12 }} <!-- Tipo-->){{ $elemfin | safeHTML }}
+            {{ $elem | safeHTML }} <a href="{{ $web }}">{{ index $r 7 }}</a> <!-- nombre centro-->({{ index $r 10 }} <!-- Tipo-->){{ $elemfin | safeHTML }}
         {{else}}
-            {{ $elem | safeHTML }}{{ index $r 9 }} <!-- nombre centro-->({{ index $r 12 }} <!-- Tipo-->){{ $elemfin | safeHTML }}
+            {{ $elem | safeHTML }}{{ index $r 7 }} <!-- nombre centro-->({{ index $r 10 }} <!-- Tipo-->){{ $elemfin | safeHTML }}
         {{end}}
 
-        {{ $elem | safeHTML }} {{ index $r 3 }} <!-- Población-->{{ $elemfin | safeHTML }}
+        {{ $elem | safeHTML }} {{ index $r 2 }} <!-- Población-->{{ $elemfin | safeHTML }}
         <!-- {{ $elem | safeHTML }} {{ index $r 2 }} Comunidad{{ $elemfin | safeHTML }}    -->
 
-        {{ $elem | safeHTML }} {{ index $r 1 }}  <!-- curso-->{{ $elemfin | safeHTML }}
-        {{ $elem | safeHTML }} {{ index $r 5 }} <!-- detectó-->{{ $elemfin | safeHTML }}
-        {{ $elem | safeHTML }} {{ index $r 6 }}  <!-- informes externos-->{{ $elemfin | safeHTML }}
-        {{ $elem | safeHTML }} {{ index $r 7 }}  <!-- adaptacion-->{{ $elemfin | safeHTML }}
-        {{ $elem | safeHTML }} {{ index $r 13 }} <!-- acoso-->{{ $elemfin | safeHTML }}
+        {{ $elem | safeHTML }} {{ index $r 0 }}  <!-- curso-->{{ $elemfin | safeHTML }}
+        {{ $elem | safeHTML }} {{ index $r 4 }} <!-- detectó-->{{ $elemfin | safeHTML }}
+        {{ $elem | safeHTML }} {{ index $r 5 }}  <!-- informes externos-->{{ $elemfin | safeHTML }}
+        {{ $elem | safeHTML }} {{ index $r 6 }}  <!-- adaptacion-->{{ $elemfin | safeHTML }}
+        {{ $elem | safeHTML }} {{ index $r 11 }} <!-- acoso-->{{ $elemfin | safeHTML }}
         <!-- {{ $elem | safeHTML }} {{ index $r 14 }} sexo{{ $elemfin | safeHTML }}    -->
     </tr>
 {{end}}
