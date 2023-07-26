@@ -1,0 +1,38 @@
+<div>
+<table>
+{{ $CSV := .Get "url" }}
+{{ range $i, $r := getCSV "," $CSV }}
+<!-- Find if we're header or not -->
+{{ $elem := "" }}
+{{ $elemfin := "" }}
+    {{ if eq $i 0}}
+        {{ $elem = "<th>"}}
+            {{ $elemfin = "</th>"}}
+    {{ else }}
+        {{ $elem = "<td>"}}
+            {{ $elemfin = "</td>"}}
+    {{ end}}
+    <tr>
+        {{ $elem | safeHTML }} {{ index $r 4 }}  <!-- promedio-->{{ $elemfin | safeHTML }}
+
+        {{ $web := index $r 10}}
+        <!-- Start writing the lines for the elements -->
+        {{ if ne $web "" }}
+            {{ $elem | safeHTML }} <a href="{{ $web }}">{{ index $r 9 }}</a> <!-- nombre centro-->({{ index $r 12 }} <!-- Tipo-->){{ $elemfin | safeHTML }}
+        {{else}}
+            {{ $elem | safeHTML }}{{ index $r 9 }} <!-- nombre centro-->({{ index $r 12 }} <!-- Tipo-->){{ $elemfin | safeHTML }}
+        {{end}}
+
+        {{ $elem | safeHTML }} {{ index $r 3 }} <!-- Población-->{{ $elemfin | safeHTML }}
+        <!-- {{ $elem | safeHTML }} {{ index $r 2 }} Comunidad{{ $elemfin | safeHTML }}    -->
+
+        {{ $elem | safeHTML }} {{ index $r 1 }}  <!-- curso-->{{ $elemfin | safeHTML }}
+        {{ $elem | safeHTML }} {{ index $r 5 }} <!-- detectó-->{{ $elemfin | safeHTML }}
+        {{ $elem | safeHTML }} {{ index $r 6 }}  <!-- informes externos-->{{ $elemfin | safeHTML }}
+        {{ $elem | safeHTML }} {{ index $r 7 }}  <!-- adaptacion-->{{ $elemfin | safeHTML }}
+        {{ $elem | safeHTML }} {{ index $r 13 }} <!-- acoso-->{{ $elemfin | safeHTML }}
+        <!-- {{ $elem | safeHTML }} {{ index $r 14 }} sexo{{ $elemfin | safeHTML }}    -->
+    </tr>
+{{end}}
+</table>
+</div>
