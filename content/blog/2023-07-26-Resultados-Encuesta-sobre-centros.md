@@ -10,7 +10,7 @@ tags:
   - Centros Educativos
 language: es
 date: 2023-07-26T15:38:02.690Z
-lastmod: 2023-07-26T19:46:37.043Z
+lastmod: 2023-07-27T07:35:19.620Z
 ---
 
 Buenas!
@@ -20,6 +20,12 @@ En base a las respuestas de las encuestas que os pasamos:
 📊 AACC: <https://forms.gle/cPVDKJP1xNKbSPuN9>
 
 📊 Acoso: <https://forms.gle/FdpSzgkhpwP6tiSb7>
+
+{{<note title="Consideraciones">}}
+
+- El promedio se calcula como el promedio aritmético de las puntuaciones dadas en los campos valorables del formulario.
+- Aparece una fila por cada encuesta rellenada aunque sea el mismo centro. El procesado de los datos no se realiza todavía por haber pocos centros duplicados.
+  {{</note>}}
 
 Hemos ido recibiendo estos datos:
 
