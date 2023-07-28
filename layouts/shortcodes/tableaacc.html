@@ -4,6 +4,8 @@
 {{ range $i, $r := getCSV "," $CSV }}
 <!-- Find if we're header or not -->
 {{ $elem := "" }}
+{{ $value := "" }}
+{{ $color := ""}}
 {{ $elemfin := "" }}
     {{ if eq $i 0}}
         {{ $elem = "<th>"}}
@@ -27,10 +29,45 @@
         <!-- {{ $elem | safeHTML }} {{ index $r 2 }} Comunidad{{ $elemfin | safeHTML }}    -->
 
         {{ $elem | safeHTML }} {{ index $r 0 }}  <!-- curso-->{{ $elemfin | safeHTML }}
-        {{ $elem | safeHTML }} {{ index $r 4 }} <!-- detectó-->{{ $elemfin | safeHTML }}
-        {{ $elem | safeHTML }} {{ index $r 5 }}  <!-- informes externos-->{{ $elemfin | safeHTML }}
-        {{ $elem | safeHTML }} {{ index $r 6 }}  <!-- adaptacion-->{{ $elemfin | safeHTML }}
-        {{ $elem | safeHTML }} {{ index $r 11 }} <!-- acoso-->{{ $elemfin | safeHTML }}
+
+        {{ $value = index $r 4 }}
+        {{ if eq $value "Sí"}}
+        {{  $color = "green" }}
+        {{end}}
+        {{ if eq $value "No"}}
+        {{  $color = "red" }}
+        {{end}}
+        {{ $elem | safeHTML }}<p style=background-color:{{ $color }}>{{ $value }}</p><!-- detectó-->{{ $elemfin | safeHTML }}
+
+
+        {{ $value = index $r 5 }}
+        {{ if eq $value "Sí"}}
+        {{  $color = "green" }}
+        {{end}}
+        {{ if eq $value "No"}}
+        {{  $color = "red" }}
+        {{end}}
+        {{ $elem | safeHTML }}<p style=background-color:{{ $color }}>{{ $value }}</p><!-- informe externo-->{{ $elemfin | safeHTML }}
+
+        {{ $value = index $r 6 }}
+        {{ if eq $value "Sí"}}
+        {{  $color = "green" }}
+        {{end}}
+        {{ if eq $value "No"}}
+        {{  $color = "red" }}
+        {{end}}
+        {{ $elem | safeHTML }}<p style=background-color:{{ $color }}>{{ $value }}</p><!-- adaptacion-->{{ $elemfin | safeHTML }}
+
+
+        {{ $value = index $r 11 }}
+        {{ if eq $value "Sí"}}
+        {{  $color = "red" }}
+        {{end}}
+        {{ if eq $value "No"}}
+        {{  $color = "green" }}
+        {{end}}
+        {{ $elem | safeHTML }}<p style=background-color:{{ $color }}>{{ $value }}</p><!-- acoso-->{{ $elemfin | safeHTML }}
+
         <!-- {{ $elem | safeHTML }} {{ index $r 14 }} sexo{{ $elemfin | safeHTML }}    -->
     </tr>
 {{end}}
