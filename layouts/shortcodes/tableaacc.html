@@ -32,39 +32,39 @@
 
         {{ $value = index $r 4 }}
         {{ if eq $value "Sí"}}
-        {{  $color = "green" }}
+        {{  $color = "PaleGreen" }}
         {{end}}
         {{ if eq $value "No"}}
-        {{  $color = "red" }}
+        {{  $color = "LightCoral" }}
         {{end}}
         {{ $elem | safeHTML }}<p style=background-color:{{ $color }}>{{ $value }}</p><!-- detectó-->{{ $elemfin | safeHTML }}
 
 
         {{ $value = index $r 5 }}
         {{ if eq $value "Sí"}}
-        {{  $color = "green" }}
+        {{  $color = "PaleGreen" }}
         {{end}}
         {{ if eq $value "No"}}
-        {{  $color = "red" }}
+        {{  $color = "LightCoral" }}
         {{end}}
         {{ $elem | safeHTML }}<p style=background-color:{{ $color }}>{{ $value }}</p><!-- informe externo-->{{ $elemfin | safeHTML }}
 
         {{ $value = index $r 6 }}
         {{ if eq $value "Sí"}}
-        {{  $color = "green" }}
+        {{  $color = "PaleGreen" }}
         {{end}}
         {{ if eq $value "No"}}
-        {{  $color = "red" }}
+        {{  $color = "LightCoral" }}
         {{end}}
         {{ $elem | safeHTML }}<p style=background-color:{{ $color }}>{{ $value }}</p><!-- adaptacion-->{{ $elemfin | safeHTML }}
 
 
         {{ $value = index $r 11 }}
         {{ if eq $value "Sí"}}
-        {{  $color = "red" }}
+        {{  $color = "LightCoral" }}
         {{end}}
         {{ if eq $value "No"}}
-        {{  $color = "green" }}
+        {{  $color = "PaleGreen" }}
         {{end}}
         {{ $elem | safeHTML }}<p style=background-color:{{ $color }}>{{ $value }}</p><!-- acoso-->{{ $elemfin | safeHTML }}
 
