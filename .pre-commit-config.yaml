@@ -61,7 +61,7 @@ repos:
   - hooks:
       - id: flake8
     repo: https://github.com/pycqa/flake8
-    rev: 6.1.0
+    rev: 7.0.0
   - hooks:
       - additional_dependencies:
           - mvdan.cc/sh/v3/cmd/shfmt@v3.1.1
