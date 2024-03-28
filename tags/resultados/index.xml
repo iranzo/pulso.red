@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Resultados on Pulso.red</title>
+    <link>https://pulso.red/tags/resultados/</link>
+    <description>Recent content in Resultados on Pulso.red</description>
+    <image>
+      <title>Pulso.red</title>
+      <url>https://pulso.red/apple-icon-152x152.png</url>
+      <link>https://pulso.red/apple-icon-152x152.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 14 Jul 2023 19:12:02 +0000</lastBuildDate><atom:link href="https://pulso.red/tags/resultados/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primer análisis de la Encuesta sobre Centros</title>
+      <link>https://pulso.red/blog/2023/07/14/primer-an%C3%A1lisis-de-la-encuesta-sobre-centros/</link>
+      <pubDate>Fri, 14 Jul 2023 19:12:02 +0000</pubDate>
+      
+      <guid>https://pulso.red/blog/2023/07/14/primer-an%C3%A1lisis-de-la-encuesta-sobre-centros/</guid>
+      <description>Como os presentamos en la Encuesta sobre centros, y gracias a que ya se ha ido rellenando por vuestra parte, podemos ir sacando algunas primeras lecturas de los datos recibidos.
+Advertencia
+Tened en cuenta que el número de respuestas es todavía muy bajo, por lo que hay que ser cauteloso con el análisis.
+Tipo de centro:
+Curso:
+Participación en programas de detección:
+Detectó el Centro las Altas Capacidades:
+¿Aceptó el Centro informes externos en caso de no detectarlas?</description>
+    </item>
+    
+  </channel>
+</rss>
