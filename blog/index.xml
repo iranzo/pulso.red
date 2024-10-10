@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogs on Pulso.red</title>
+    <link>https://pulso.red/blog/</link>
+    <description>Recent content in Blogs on Pulso.red</description>
+    <image>
+      <title>Pulso.red</title>
+      <url>https://pulso.red/apple-icon-152x152.png</url>
+      <link>https://pulso.red/apple-icon-152x152.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 26 Jul 2023 15:38:02 +0000</lastBuildDate><atom:link href="https://pulso.red/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resultados de la encuesta sobre centros</title>
+      <link>https://pulso.red/blog/2023/07/26/resultados-de-la-encuesta-sobre-centros/</link>
+      <pubDate>Wed, 26 Jul 2023 15:38:02 +0000</pubDate>
+      
+      <guid>https://pulso.red/blog/2023/07/26/resultados-de-la-encuesta-sobre-centros/</guid>
+      <description>Buenas!
+En base a las respuestas de las encuestas que os pasamos:
+📊 AACC: https://forms.gle/cPVDKJP1xNKbSPuN9
+📊 Acoso: https://forms.gle/FdpSzgkhpwP6tiSb7
+Consideraciones
+El promedio se calcula como el promedio aritmético de las puntuaciones dadas en los campos valorables del formulario. Aparece una fila por cada encuesta rellenada aunque sea el mismo centro. El procesado de los datos no se realiza todavía por haber pocos centros duplicados. Hemos ido recibiendo estos datos:
+Centros Nota Nombre (Tipo) Población Curso ¿Detectó AACC?</description>
+    </item>
+    
+    <item>
+      <title>Primer análisis de la Encuesta sobre Centros</title>
+      <link>https://pulso.red/blog/2023/07/14/primer-an%C3%A1lisis-de-la-encuesta-sobre-centros/</link>
+      <pubDate>Fri, 14 Jul 2023 19:12:02 +0000</pubDate>
+      
+      <guid>https://pulso.red/blog/2023/07/14/primer-an%C3%A1lisis-de-la-encuesta-sobre-centros/</guid>
+      <description>Como os presentamos en la Encuesta sobre centros, y gracias a que ya se ha ido rellenando por vuestra parte, podemos ir sacando algunas primeras lecturas de los datos recibidos.
+Advertencia
+Tened en cuenta que el número de respuestas es todavía muy bajo, por lo que hay que ser cauteloso con el análisis.
+Tipo de centro:
+Curso:
+Participación en programas de detección:
+Detectó el Centro las Altas Capacidades:
+¿Aceptó el Centro informes externos en caso de no detectarlas?</description>
+    </item>
+    
+    <item>
+      <title>Encuesta sobre centros</title>
+      <link>https://pulso.red/blog/2023/07/13/encuesta-sobre-centros/</link>
+      <pubDate>Thu, 13 Jul 2023 11:12:02 +0000</pubDate>
+      
+      <guid>https://pulso.red/blog/2023/07/13/encuesta-sobre-centros/</guid>
+      <description>Buenas!
+Vistas las conversaciones acerca de los centros y cómo eran de sensibles con las Altas Capacidades, pensamos en la opción de recoger de forma anónima las opiniones sobre los diversos centros y cómo han reaccionado o actuado en vuestro caso.
+Nos gustaría, con la información recogida, poder representar de forma sencilla la sensibilidad del centro con respecto a las AACC y luego poderla publicar para que nos ayuden mejor a escoger centros para llevar a nuestros hijos e hijas.</description>
+    </item>
+    
+    <item>
+      <title>¿Qué son las Altas Capacidades?</title>
+      <link>https://pulso.red/blog/2023/07/02/qu%C3%A9-son-las-altas-capacidades/</link>
+      <pubDate>Sun, 02 Jul 2023 11:13:48 +0000</pubDate>
+      
+      <guid>https://pulso.red/blog/2023/07/02/qu%C3%A9-son-las-altas-capacidades/</guid>
+      <description>Como las definen en la Asociación Valenciana de apoyo a las Altas Capacidades Intelectuales (AVAST): Altas Capacidades
+Alumnos con altas capacidades son aquellos que – cuando los comparamos con otros estudiantes de su misma edad, experiencia y oportunidades – muestran una mayor probabilidad de alcanzar logros extraordinarios o sobresalientes en uno o más dominios culturalmente valiosos para una sociedad determinada
+Generalmente, van a implicar un trato especial (Necesidades Específicas de Apoyo Educativo (NEAE) ) y suelen requerir trabajo por parte del Centro Educativo, Familia y generalmente apoyo externo.</description>
+    </item>
+    
+    <item>
+      <title>Bienvenida</title>
+      <link>https://pulso.red/blog/2023/07/01/bienvenida/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pulso.red/blog/2023/07/01/bienvenida/</guid>
+      <description>Bienvenido a nuestra página!!
+Aquí pretendemos recoger información que puede ser interesante para vosotros!</description>
+    </item>
+    
+  </channel>
+</rss>
