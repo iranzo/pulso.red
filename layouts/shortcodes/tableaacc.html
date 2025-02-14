@@ -1,7 +1,10 @@
 <div>
 <table>
 {{ $CSV := .Get "url" }}
-{{ range $i, $r := getCSV "," $CSV }}
+{{ $csvResource := resources.GetRemote $CSV }}
+{{ $csvData := $csvResource | transform.Unmarshal (dict "delimiter" ",") }}
+
+{{ range $i, $r := $csvData }}
 <!-- Find if we're header or not -->
 {{ $elem := "" }}
 {{ $value := "" }}
