@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pages on Pulso.red</title>
+    <link>https://pulso.red/pages/</link>
+    <description>Recent content in Pages on Pulso.red</description>
+    <image>
+      <title>Pulso.red</title>
+      <url>https://pulso.red/apple-icon-152x152.png</url>
+      <link>https://pulso.red/apple-icon-152x152.png</link>
+    </image>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 14 Jul 2023 21:05:45 +0000</lastBuildDate>
+    <atom:link href="https://pulso.red/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proyectos</title>
+      <link>https://pulso.red/projects/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://pulso.red/projects/</guid>
+      <description>Proyectos en los que hemos estado involucrados</description>
+    </item>
+    <item>
+      <title>Acerca de</title>
+      <link>https://pulso.red/about/</link>
+      <pubDate>Thu, 02 Jun 2016 17:27:47 +0200</pubDate>
+      <guid>https://pulso.red/about/</guid>
+      <description>¿Quienes somos?</description>
+    </item>
+  </channel>
+</rss>
